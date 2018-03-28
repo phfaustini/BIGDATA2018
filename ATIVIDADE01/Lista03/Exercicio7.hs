@@ -6,7 +6,9 @@ collatz x
 
 {-Exercício 07: Implemente uma função collatzLen x que retorna o tamanho da lista formada pela 
 aplicação repetida de collatz sobre o valor x até que essa chegue no número 1.-}
-collatzLen x = computeLength x 0
+
+{-Exemplo: collatzLen 3 = 8, pois [3, 10, 5, 16, 8, 4, 2, 1] tem tamanho 7. -}
+collatzLen x = computeLength x 1
     where 
         computeLength n size
             | next == 1 = size + 1
