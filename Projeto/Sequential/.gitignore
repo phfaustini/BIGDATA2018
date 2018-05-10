@@ -1,0 +1,10 @@
+*.vs/*
+*.vscode*
+*~
+dist/*
+*.swp
+*.swn
+*.swo
+*.swm
+*.eventlog
+!results/fpgrowth_*
